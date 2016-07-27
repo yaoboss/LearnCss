@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>文字环绕图片浮动</title>
+	<meta charset="utf-8">
+
+	<style type="text/css">
+		/*.first {
+			float: right;
+		}
+
+		.second {
+			display: block;
+			float: right;
+		}*/
+
+		.first {
+			float: left;			
+		}
+	</style>
+</head>
+<body>
+
+<div>
+
+
+	<img class="second" src="image/上班.png">
+	<span>这里是一个span</span>
+
+	<p class="first">我们使用float浮动做了很多其本职工作以外的事情，于是我们会混淆，我们会回看不清float真正的面目。浮动真正的意义在哪里呢？要知道这个问题的答案很简单，假设现在CSS中没有浮动(float)属性，那么会变成一个什么样子。我们会发现，目前流行采用浮动方法实现的无论是分栏布局，还是列表排列我们都可以用其他一些CSS属性（不考虑table）代替实现，唯一一个实现不了的就是“文字环绕图片”，我是想不出来能有什么方法可以让文字环绕图片显示。好，这个替代不了的作用才是float真正的意义所在。此作用类似于word中的版式，很基础的原始的作用：</p>
+
+	<!-- <span>这里是一个span</span> -->
+
+</div>
+</body>
+</html>
